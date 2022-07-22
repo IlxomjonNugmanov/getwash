@@ -1,0 +1,29 @@
+
+.section-hero__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.section-hero__wrapper__img{
+    width: 650px;
+}
+.section-hero__title{
+    margin-bottom: 19px;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 125%;
+    color: #141B41;
+}
+.section-hero__p{
+    margin-bottom: 29px;
+    font-weight: 350;
+    font-size: 24px;
+    line-height: 140%;
+    color: #72727E;
+}
+.link{
+    @include btn;
+    color: white;
+    background-color: #446DF6;
+    border-radius: 6px;
+}
